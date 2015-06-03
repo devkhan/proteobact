@@ -1,3 +1,5 @@
+%!TEX program = xelatex
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Devesh Khandelwal Resume/CV
 % XeLaTeX Template
@@ -36,27 +38,26 @@
 %----------------------------------------------------------------------------------------
 
 \begin{aside} % In the aside, each new line forces a line break
-\section{contact}
-319, CPWD Quarters
-CGRC, Dev Nagar
-Delhi, India
-~
-+91 9810 297 002
-~
-\href{mailto:devesh.khandelwal@outlook.com}{devesh.khandelwal
-@outlook.com}
-\href{http://devkhan.github.io}{devkhan.github.io}
-\href{http://fb.com/devkh95}{fb://devkh95}
-\section{languages}
-hindi mother tongue
-english
-\section{programming}
-\includegraphics[scale=0.35]{img/programming.png}
-%{\color{red} $\varheartsuit$} C/C++
-%C\# JavaScript
-%HTML5 \& CSS3
-\section{technologies}
-Android, Web UI, WPF, REST API, GNU Tools, SQL, Flask
+	\section{contact}
+		319, CPWD Quarters
+		CGRC, Dev Nagar
+		Delhi, India
+		~
+		+91 9810 297 002
+		~
+		\href{mailto:devesh.khandelwal@outlook.com}{devesh.khandelwal
+			@outlook.com}
+		\href{http://devkhan.github.io}{devkhan.github.io}
+	\section{languages}
+		hindi mother tongue
+		english
+	\section{programming}
+		\includegraphics[scale=0.35]{img/programming.png}
+		%{\color{red} $\varheartsuit$} C/C++
+		%C\# JavaScript
+		%HTML5 \& CSS3
+	\section{technologies}
+		Android, Web UI, WPF, REST API, GNU Tools, SQL, Flask, MVC
 \end{aside}
 
 %----------------------------------------------------------------------------------------
@@ -64,121 +65,87 @@ Android, Web UI, WPF, REST API, GNU Tools, SQL, Flask
 %----------------------------------------------------------------------------------------
 
 \section{education}
+	\begin{entrylist}
 
-\begin{entrylist}
+		\entry
+			{2013-Present}
+			{Graduation}
+			{Cluster Innovation Centre, University of Delhi, Delhi}
+			{\small Bachelor of Technology\\Information Technology and Mathematical Innovations}
+			
 
-%------------------------------------------------
+		\entry
+			{2010}
+			{High School}
+			{Central Board of Secondary Education, Delhi}
+			{\small AISSE-2010}
 
-\entry
-{2013-Present}
-{Bachelor of Technology {\normalfont in Information Technology and Mathematical Innovations}}
-{Cluster Innovation Centre, University of Delhi, Delhi}
+		\entry
+			{2012}
+			{Intermediate}
+			{Central Board of Secondary Education, Delhi}
+			{\small AISSCE-2012}
 
-%------------------------------------------------
-
-\entry
-{2010}
-{High School}
-{Central Board of Secondary Education, Delhi}
-{AISSE-2010}
-
-%------------------------------------------------
-
-\entry
-{2012}
-{Intermediate}
-{Central Board of Secondary Education, Delhi}
-{AISSCE-2012}
-
-%------------------------------------------------
-
-\end{entrylist}
+	\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{experience}
+	\begin{entrylist}
 
-\begin{entrylist}
+		\entry
+			{2014}
+			{General Commerce Limited}
+			{Noida, Uttar Pradesh}
+			{\emph{Summer Intern (July-August)} \\
+				Worked in a group of students from my own college, towards the strategic IT Alignment of the company under the IT Maha Abhiyan initiative of the University of Delhi, PHD Chamber and IamSMEofIndia. Work done: \\
+			\begin{itemize}
+				\item Learned about the flow of working in a manufacturing company, garment export industry and did business and technological analysis.
+				\item Built the company website and also online presence on social networks.
+				\item Became familiar with their ERP implementation and also helped other employees.
+			\end{itemize}
+			}
 
-\entry
-{2014}
-{General Commerce Limited}
-{Noida, Uttar Pradesh}
-{\emph{Summer Intern (July-August)} \\
-Worked in a group of students from my own college, towards the strategic IT Alignment of the company under the IT Maha Abhiyan initiative of the University of Delhi, PHD Chamber and IamSMEofIndia. Work done: \\
-\begin{itemize}
-\item Learned about the flow of working in a manufacturing company, garment export industry and did business and technological analysis.
-\item Built the company website and also online presence on social networks.
-\item Became familiar with their ERP implementation and also helped other employees.
-\end{itemize}
-}
-
-%------------------------------------------------
-
-\end{entrylist}
+	\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{awards}
+\section{projects}
+	\begin{entrylist}
 
-\begin{entrylist}
+		\entry
+			{2015}
+			{University of Delhi}
+			{Delhi}
+			{\emph{Antardhvani Official App} \\
+			Developed the official mobile application for the Antardhvani 2015, the official annual festival of Univeristy of Delhi in collaboration with a team of developers.}
 
-%------------------------------------------------
-% NONE AVAILABLE
-%------------------------------------------------
-
-\end{entrylist}
-
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{communication skills}
-
-\begin{entrylist}
-
-%------------------------------------------------
-% NONE
-%------------------------------------------------
-
-\end{entrylist}
+	\end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
+%	COURSEWORK SECTION
 %----------------------------------------------------------------------------------------
 
-\section{interests}
+\section{coursework}
+	\begin{entrylist}
 
-\textbf{professional:} data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing \textbf{personal:} piano, chess, cooking, dancing, running
+		\entry
+			{\textbf{it \& computing:}}
+			{}{}{programming, data structures, algorithms, database management, computation	theory, operating systems}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS SECTION
-%----------------------------------------------------------------------------------------
+		\entry
+			{\textbf{mathematics:}}
+			{}{}{calculus, linear algebra, discrete mathematics, probability \& statistics, mathematical modelling, combinatory logic}
 
-\section{publications}
+		\entry
+			{\textbf{biology:}}
+			{}{}{cell biology, molecular biology, integrative biology, genetics \& genomics}
 
-\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
-
-\printbibsection{book}{books} % Print all books from the bibliography
-
-\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
-\nocite{*}
-\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=bibheading]
-\end{refsection}
-
-\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
-\nocite{*}
-\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=bibheading]
-\end{refsection}
-
-\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
-
-\printbibsection{report}{research reports} % Print all research reports from the bibliography
-
-%----------------------------------------------------------------------------------------
+	\end{entrylist}
 
 \end{document}
+================================== THE END ==================================%
